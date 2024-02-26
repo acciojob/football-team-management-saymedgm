@@ -3,8 +3,8 @@ package com.driver;
 import java.util.Scanner;
 
 public class FootballTeamManagementSystem {
-	public static void main(String[] args) {
-		Team<Player> teamManagementSystem = new Team<Player>();
+    public static void main(String[] args) {
+        Team<Player> teamManagementSystem = new Team<Player>();
         Scanner scanner = new Scanner(System.in);
 
         boolean exit = false;
